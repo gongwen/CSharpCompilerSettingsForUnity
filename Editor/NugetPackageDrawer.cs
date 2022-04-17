@@ -126,6 +126,10 @@ namespace Coffee.CSharpCompilerSettings
 
         public List<NugetPackage> m_Packages = new List<NugetPackage>()
         {
+            new NugetPackage("Microsoft.CodeAnalysis.CSharp", "3.3.3", NugetPackage.CategoryType.Compiler),
+            new NugetPackage("Microsoft.CodeAnalysis.Analyzers", "4.1.0", NugetPackage.CategoryType.Compiler),
+            
+            
             new NugetPackage("Microsoft.Net.Compilers.Toolset", "3.5.0", NugetPackage.CategoryType.Compiler),
             new NugetPackage("Microsoft.Net.Compilers", "3.5.0", NugetPackage.CategoryType.Compiler),
             new NugetPackage("OpenSesame.Net.Compilers.Toolset", "3.5.0", NugetPackage.CategoryType.Compiler),
